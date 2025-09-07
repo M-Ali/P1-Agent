@@ -218,7 +218,7 @@ def safe_run_sync(agent, prompt, max_turns=10, max_retries=5, base_delay=5):
 # Now call it here
 result = safe_run_sync(
     orchestrator_agent,
-    "Do deep search for a lead generation system for a tax company.",
+    "Do deep search for a lead generation system for a professiona business services consultancy.",
     max_turns=20
 )
 
@@ -229,7 +229,7 @@ report_text = result.final_output
 
 # Save to disk
 from pathlib import Path
-out_path = Path("lead_generation_tax_company_report.md").resolve()
+out_path = Path("lead_generation_business_consultancy_report.md").resolve()
 out_path.write_text(report_text, encoding="utf-8")
 print(f"\nReport saved to: {out_path}\n")
 

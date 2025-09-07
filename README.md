@@ -69,14 +69,14 @@ uv run main.py
 By default, it executes a deep research task and saves the report as:
 
 Copy code
-lead_generation_tax_company_report.md
+lead_generation_business_consultancy_report.md
 You can edit the query in main.py:
 
 python
 Copy code
 result = safe_run_sync(
     orchestrator_agent,
-    "Do deep search for a lead generation system for a Pakistan-based advertising agency.",
+    "Do deep search for a lead generation system for a Pakistan-based business services consultancyy.",
     max_turns=20
 )
 
